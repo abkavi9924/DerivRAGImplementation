@@ -24,3 +24,39 @@ The pipeline executes sequentially with strict terminal logging:
 Executes the core pipeline, regenerates the index, and writes all outputs to `artifacts/`.
 ```bash
 python pipeline.py
+
+```
+
+2. Validate the Output
+Runs the deterministic test suite to verify JSON schemas, numeric scoring, citation formatting, controlled vocabularies, and hit-rate logic.
+
+```bash
+python validate.py
+
+```
+3. Start the API Server (Stretch Goal)
+Starts a lightweight, dependency-free local web server exposing the RAG pipeline.
+
+```bash
+python api.py
+
+```
+Testing the API
+With the server running (python api.py), you can query the endpoint from a second terminal window.
+
+For Windows (PowerShell):
+
+PowerShell
+
+```bash
+
+(Invoke-WebRequest -Uri http://localhost:8000/answer -Method Post -Body '{"question": "How long do bank withdrawals take?"}' -ContentType "application/json").Content
+
+```
+For Mac/Linux (cURL):
+
+```bash
+curl -X POST http://localhost:8000/answer \
+-H "Content-Type: application/json" \
+-d '{"question": "How long do bank withdrawals take?"}'
+```
