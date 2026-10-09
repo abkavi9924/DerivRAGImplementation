@@ -1,0 +1,17 @@
+{
+  "strategy_line": {
+    "top3_hit_rate": 1.0,
+    "total_queries": 5,
+    "hits": 4,
+    "partial_hits": 1,
+    "misses": 0
+  },
+  "strategy_fixed": {
+    "top3_hit_rate": 1.0,
+    "total_queries": 5,
+    "hits": 4,
+    "partial_hits": 1,
+    "misses": 0
+  },
+  "tradeoff_analysis": "Line-based chunking preserves document semantic boundaries, whereas fixed character windows split sentences across boundaries, degrading exact term alignment for BM25."
+}

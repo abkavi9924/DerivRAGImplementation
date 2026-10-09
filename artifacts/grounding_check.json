@@ -1,0 +1,42 @@
+[
+  {
+    "query_id": "Q1",
+    "is_grounded": true,
+    "checked_chunk_ids": [
+      "chunk_7"
+    ],
+    "reasons": []
+  },
+  {
+    "query_id": "Q2",
+    "is_grounded": true,
+    "checked_chunk_ids": [
+      "chunk_9"
+    ],
+    "reasons": []
+  },
+  {
+    "query_id": "Q3",
+    "is_grounded": true,
+    "checked_chunk_ids": [
+      "chunk_1"
+    ],
+    "reasons": []
+  },
+  {
+    "query_id": "Q4",
+    "is_grounded": true,
+    "checked_chunk_ids": [
+      "chunk_12"
+    ],
+    "reasons": []
+  },
+  {
+    "query_id": "Q5",
+    "is_grounded": true,
+    "checked_chunk_ids": [
+      "chunk_18"
+    ],
+    "reasons": []
+  }
+]

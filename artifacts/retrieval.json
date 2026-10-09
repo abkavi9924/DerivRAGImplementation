@@ -1,0 +1,137 @@
+[
+  {
+    "query_id": "Q1",
+    "question": "I requested a bank withdrawal yesterday. How long can it take after approval?",
+    "top_k": [
+      {
+        "rank": 1,
+        "chunk_id": "chunk_7",
+        "doc_title": "Cash withdrawal processing",
+        "score": 8.6703,
+        "chunk_text": "Bank withdrawals may take 1 to 3 business days after approval."
+      },
+      {
+        "rank": 2,
+        "chunk_id": "chunk_1",
+        "doc_title": "Password reset and account recovery",
+        "score": 3.911,
+        "chunk_text": "If a user forgets their password, they can request a reset email from the login page."
+      },
+      {
+        "rank": 3,
+        "chunk_id": "chunk_8",
+        "doc_title": "Cash withdrawal processing",
+        "score": 3.9026,
+        "chunk_text": "E-wallet withdrawals are typically processed within 4 hours after approval."
+      }
+    ]
+  },
+  {
+    "query_id": "Q2",
+    "question": "My reset link is not working after an hour. Is that expected?",
+    "top_k": [
+      {
+        "rank": 1,
+        "chunk_id": "chunk_9",
+        "doc_title": "Cash withdrawal processing",
+        "score": 7.6975,
+        "chunk_text": "If an account is under compliance review, withdrawals remain pending until the review is completed."
+      },
+      {
+        "rank": 2,
+        "chunk_id": "chunk_2",
+        "doc_title": "Password reset and account recovery",
+        "score": 4.445,
+        "chunk_text": "Reset links expire after 30 minutes."
+      },
+      {
+        "rank": 3,
+        "chunk_id": "chunk_4",
+        "doc_title": "Password reset and account recovery",
+        "score": 3.125,
+        "chunk_text": "If two-factor authentication is enabled and the user lost access to their authenticator app, backup codes can be used."
+      }
+    ]
+  },
+  {
+    "query_id": "Q3",
+    "question": "Can support tell me what my password currently is?",
+    "top_k": [
+      {
+        "rank": 1,
+        "chunk_id": "chunk_1",
+        "doc_title": "Password reset and account recovery",
+        "score": 3.475,
+        "chunk_text": "If a user forgets their password, they can request a reset email from the login page."
+      },
+      {
+        "rank": 2,
+        "chunk_id": "chunk_9",
+        "doc_title": "Cash withdrawal processing",
+        "score": 2.7083,
+        "chunk_text": "If an account is under compliance review, withdrawals remain pending until the review is completed."
+      },
+      {
+        "rank": 3,
+        "chunk_id": "chunk_4",
+        "doc_title": "Password reset and account recovery",
+        "score": 2.6834,
+        "chunk_text": "If two-factor authentication is enabled and the user lost access to their authenticator app, backup codes can be used."
+      }
+    ]
+  },
+  {
+    "query_id": "Q4",
+    "question": "Will a utility bill from 8 months ago work for proof of address?",
+    "top_k": [
+      {
+        "rank": 1,
+        "chunk_id": "chunk_12",
+        "doc_title": "Document verification requirements",
+        "score": 7.0358,
+        "chunk_text": "Proof of address documents must show the user's full name, address, and issue date."
+      },
+      {
+        "rank": 2,
+        "chunk_id": "chunk_13",
+        "doc_title": "Document verification requirements",
+        "score": 5.1807,
+        "chunk_text": "Utility bills older than 6 months are not accepted."
+      },
+      {
+        "rank": 3,
+        "chunk_id": "chunk_11",
+        "doc_title": "Document verification requirements",
+        "score": 4.614,
+        "chunk_text": "Proof of identity documents must be valid and unexpired."
+      }
+    ]
+  },
+  {
+    "query_id": "Q5",
+    "question": "Can I withdraw profit made on a demo account?",
+    "top_k": [
+      {
+        "rank": 1,
+        "chunk_id": "chunk_18",
+        "doc_title": "Demo account behaviour",
+        "score": 6.2663,
+        "chunk_text": "Demo profit cannot be withdrawn."
+      },
+      {
+        "rank": 2,
+        "chunk_id": "chunk_19",
+        "doc_title": "Demo account behaviour",
+        "score": 4.0834,
+        "chunk_text": "Users should switch to a real account to trade with real funds."
+      },
+      {
+        "rank": 3,
+        "chunk_id": "chunk_1",
+        "doc_title": "Password reset and account recovery",
+        "score": 3.911,
+        "chunk_text": "If a user forgets their password, they can request a reset email from the login page."
+      }
+    ]
+  }
+]
